@@ -1,0 +1,287 @@
+*{
+	border: 0;
+	margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+body {
+	background: black; 
+}
+
+#contenedor{
+	background: #2b2b2b; 
+	height: inherit; 
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 15px; 
+}
+
+header, footer{
+	background: black;
+	height: 100px;
+	width: 900px;
+	color: white;
+}
+
+nav {	
+	text-align: right;
+}
+li{
+	list-style: none;
+	display: inline-flex;
+}
+
+#banner, #posteos{
+	width: 900px;
+	height: 300px;
+	margin-right:  20px;
+	margin-top:  20px;
+	padding-bottom: 25px;
+}
+
+section#noticias{
+	background: white;
+	padding: 20px 20px 10px 20px;
+	color: #BDBDBD;
+}
+
+#posteos{
+	width: 850px;
+	display: block;
+}
+footer{
+     height: 400px;
+     padding: 10px;
+}
+
+p {
+	text-align: justify;
+}
+
+#noticias #noticia1{
+	background:white;
+	height: 350px;
+	width: 200px;
+	display: inline-flex;
+	vertical-align: top;
+}
+
+#noticias #noticia2{
+	background: white;
+	height: 350px;
+	width: 200px;
+    display: inline-flex;
+	vertical-align: top;
+}
+
+#noticias #noticia3{
+	background: white;
+	height: 350px;
+	width: 200px;
+	display: inline-flex;
+	vertical-align: top;
+
+}
+
+.post, .titulo, .noti {  
+	margin-left: 20px;
+	color: rgb(175, 174, 174);
+     padding-right: 10px;
+}
+
+.noti {
+margin-left: 0;
+}
+
+
+.texto {
+	width: 450px; 
+	height: 130px;
+	position: relative;
+	display: inline-block;
+}
+/* CAMBIOS !!!*/
+
+div.ban{
+	background-color: #d6d6d6;
+	border-radius: 22px 22px 0 0;
+	padding: 12px;
+}
+
+.centrar {	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+div.ban > img {
+	width: 97%;
+}
+span {
+	color: yellow;
+}
+div.divtitulo {	
+    position: absolute;
+}
+h1.tituloweb{
+	font-size: 50px;
+}
+h5 {	
+    text-align: right;
+}
+div.divnav{	
+    position: relative;
+    float: right;
+}
+nav > ul > li > a {	
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-top: 10px;
+	border-top: 0px solid yellow;
+}
+nav > ul > li > a:hover{	
+    color: yellow;
+    border-top: 1px solid yellow;
+}
+span.abajonav{	
+    color: #4e4e3e;
+    font-size: 10px;
+}
+li {	
+    font-weight: bold;
+    margin: 30px 10px;
+}
+section#noticias{
+	height: 875px;
+}
+
+div#noticias{
+	width: 630px;	
+	position: absolute;
+	float: left;
+}
+
+hr {
+	border: 1px dotted #d6d6d6;
+	margin: 3px 0 15px 0;
+	width: auto;
+}
+article > center > img {
+	border: 1px solid grey;
+    padding: 5px;
+}
+article > center > p{	
+    color: rgb(175, 174, 174);
+    padding: 4px 8px;
+    text-align: justify;
+}
+
+div.imagen > img {
+	border: 1px solid grey;
+    padding: 5px;
+}
+
+article > div.texto {
+    height: 190px;
+}
+
+aside {		
+    width: 205px;
+    position: relative;
+    float: right;
+    margin: 1px;
+}
+aside > div.imgaside {
+     border: 1px solid grey;
+     padding: 3px;
+}
+
+aside > div.sponsor {
+	display: inline-flex;
+}
+
+aside > div.sponsor > img:hover {
+	transform: scale(1.1)
+}
+
+footer > div.final1 {
+	margin: 0 5px;
+	float: left;
+	width: 410px;
+	height: 250px;
+}
+
+footer > div.final2 {
+	margin: 0 5px;
+	float: left;
+	width: 250px;
+	height: 250px;
+}
+footer > div.final3 {
+	margin: 0 5px;
+	float: left;
+	width: 200px;
+	height: 250px;
+}
+a.vinculo{
+	color: chocolate;
+	text-decoration: none;
+}
+
+a.vinculo:hover{
+	color: darkorange;
+	font-size: 1.1em;
+}
+
+footer > div.final1 > div.texto {     
+	width: 280px; 
+	height: 130px;
+}
+
+footer > div.final1 > hr{
+     width: 400px;
+}
+
+footer >  div.final2 > div.imagenesfooter {
+     width: 250px;
+     position: relative;
+     margin: 1px 4 4 0px;
+ }
+
+footer >  div.final2 > div.imagenesfooter > div.texto > hr {
+     width: 155px;
+}
+
+a.noti {
+	color: #790606;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform: lowercase;
+
+}
+a.noti:hover {
+     color: darkorange;
+     font-size: 1.2em;
+}
+
+a.posts {
+	color: #790606;
+	float: right;
+	font-weight: bold;
+	text-decoration:none;
+	text-transform: lowercase;
+}
+
+a.posts:hover {
+     color: darkorange;
+     font-size: 1.1em;
+}
